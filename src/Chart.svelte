@@ -1,5 +1,4 @@
-<!-- 10:25 -->
-<canvas id="SEV_Chart" width="3" height="1"></canvas>
+<canvas id="SEV_Chart" width="3" height="1.5"></canvas>
 
 <script context="module">
     import Chart from "chart.js";
@@ -119,7 +118,6 @@
                 datasets: [
                     {
                         label: expertise[0],
-//                        data: [67.8, 298.3],
                         data: data[0],
                         backgroundColor: 'rgba(54, 162, 235,.45)',
                         borderColor: 'rgba(54, 162, 235,1)',
@@ -128,7 +126,6 @@
                     {
                         label: expertise[1],
                         data: data[1],
-//                        data: [20.7,152.3],
                         backgroundColor: 'rgba(255, 99, 132,.45)',
                         borderColor: 'rgba(255, 99, 132, 1)',
                         borderWidth: 2
@@ -136,38 +133,11 @@
                     {
                         label: expertise[2],
                         data: data[2],
-//                        data: [11.4,918.2],
                         borderColor: 'rgba(75, 192, 192,1)',
                         backgroundColor: 'rgba(75, 192, 192, .45)',
                         borderWidth: 2
                     },
                 ]
-
-                // datasets: [{
-                //     label: label,
-                //     data: data,
-                //     backgroundColor: [
-                //         'rgba(255, 99, 132, 0.2)',
-                //         'rgba(54, 162, 235, 0.2)',
-                //         'rgba(255, 206, 86, 0.2)',
-                //         'rgba(75, 192, 192, 0.2)',
-                //         'rgba(153, 102, 255, 0.2)',
-                //         'rgba(255, 159, 64, 0.2)',
-                //         'rgba(123, 255, 24, 0.2)',
-                //         'rgba(215, 120, 42, 0.2)'
-                //     ],
-                //     borderColor: [
-                //         'rgba(255, 99, 132, 1)',
-                //         'rgba(54, 162, 235, 1)',
-                //         'rgba(255, 206, 86, 1)',
-                //         'rgba(75, 192, 192, 1)',
-                //         'rgba(153, 102, 255, 1)',
-                //         'rgba(255, 159, 64, 1)',
-                //         'rgba(123, 255, 24, 1)',
-                //         'rgba(215, 120, 42, 1)'
-                //     ],
-                //     borderWidth: 2
-                // }]
             },
             options: {
                 scales: {
@@ -263,6 +233,9 @@
                 }]
             },
             options: {
+                legend: {
+                    display: false,
+                },
                 scales: {
                     yAxes: [{
                         ticks: {
@@ -284,7 +257,7 @@
              type: type,
              data: {
                  datasets: [{
-                     label: 'Scatter Dataset',
+                    // label: 'Scatter Dataset',
                      radius: 7,
                      borderColor: chartColors.grey,
                      backgroundColor: 'rgb(54, 162, 235,.70)',
@@ -293,16 +266,23 @@
              },
              options: {
                  scales: {
-                     scaleLabel: {
-                         fontSize: 16,
-                         display: true,
-                         labelString: 'probability'
-                     },
+                     yAxes: [{
+                         ticks: {
+                             beginAtZero: true
+                         },
+                         scaleLabel: {
+                             display: true,
+                             labelString: 'minutes'
+                         }
+                     }],
                      xAxes: [{
                          type: 'category',
                          labels: labels,
-                    }]
-                 }
+                     }],
+                 },
+                 legend: {
+                     display: false,
+                     },
              }
          });
     }
