@@ -96,7 +96,7 @@ var duration          = 7*12*1e10;
 
     <!--    </div>-->
 
-<div style="height:220px;">
+<div style="height:210px;">
 <!--    <div class="minorTitle">-->
 <!--        <div style="margin: 0px 0px 5px 4px" class="minorTitleColumn">Transmission Dynamics</div>-->
 <!--        <div style="flex: 0 0 20; width:20px"></div>-->
