@@ -72,6 +72,80 @@ export function SEV_ExtractTimeCommitmentsByExpertiseAndTouchPoint(touchPoint, u
     return timeCommitmentsCompanyCounter;
 }
 
+export function SEV_ExtractSuccessRatiosByPortfolio(internal, companies){
+    let internalCompanyCounter = Array(companies.length).fill(0);
+    let successVector = Array(companies.length).fill(0);
+
+    let ratioVector = Array(companies.length).fill(0);
+
+    for (let i = 0; i < proxyData.length; i++){
+        if(proxyData[i].internal.first + " " + proxyData[i].internal.last === internal){
+            let indexDiscoveryOnCompanies = companies.indexOf(proxyData[i].portfolio.company);
+            internalCompanyCounter[indexDiscoveryOnCompanies] += 1;
+            if(proxyData[i].introduction.result === "SUCCESS"){
+                successVector[indexDiscoveryOnCompanies] += 1;
+            }
+        }
+    }
+
+    for(let j = 0; j < companies.length; j++){
+        let res;
+        if(internalCompanyCounter[j] === 0)
+            res = 0.0;
+        else
+            res = successVector[j]/internalCompanyCounter[j];
+        console.log(res);
+        ratioVector.push(res);
+    }
+    console.log("S: " + successVector.length);
+    console.log("I: " + internalCompanyCounter.length);
+    console.log("R: " + ratioVector.length);
+
+    return ratioVector;
+}
+
+export function SEV_ExtractIntroductionsByPortfolio(SEV_Internal, SEV_Companies){
+    let internalCompanyCounter = Array(SEV_Companies.length).fill(0);
+    for (let i = 0; i < proxyData.length; i++){
+        if(proxyData[i].internal.first + " " + proxyData[i].internal.last === SEV_Internal){
+            let indexDiscoveryOnCompanies = SEV_Companies.indexOf(proxyData[i].portfolio.company);
+            internalCompanyCounter[indexDiscoveryOnCompanies] += 1;
+        }
+    }
+    return internalCompanyCounter;
+}
+
+export function SEV_ExtractTimeCommitmentByPortfolio(SEV_Internal, SEV_Companies){
+    let internalCompanyTimeAggregate = Array(SEV_Companies.length).fill(0);
+    for (let i = 0; i < proxyData.length; i++){
+        if(proxyData[i].internal.first + " " + proxyData[i].internal.last === SEV_Internal){
+            let indexDiscoveryOnCompanies = SEV_Companies.indexOf(proxyData[i].portfolio.company);
+            internalCompanyTimeAggregate[indexDiscoveryOnCompanies] += proxyData[i].timeCommitment;
+        }
+    }
+    return internalCompanyTimeAggregate;
+}
+
+export function SEV_Internals(){
+    let internalIDs = Array();
+    for (let i = 0; i < proxyData.length; i++){
+        internalIDs.push(proxyData[i].internal.first + " " + proxyData[i].internal.last);
+    }
+    //Remove duplicates : https://wsvincent.com/javascript-remove-duplicates-array/
+    let captureInternalIDs = (internalIDs) => internalIDs.filter((v,i) => internalIDs.indexOf(v) === i);
+    return captureInternalIDs(internalIDs);
+}
+
+export function SEV_Companies(){
+    let portfolioCompanies = Array();
+    for (let i = 0; i < proxyData.length; i++){
+        portfolioCompanies.push(proxyData[i].portfolio.company);
+    }
+    //Remove duplicates : https://wsvincent.com/javascript-remove-duplicates-array/
+    let capturePortfolioCompanies = (portfolioCompanies) => portfolioCompanies.filter((v,i) => portfolioCompanies.indexOf(v) === i);
+    return capturePortfolioCompanies(portfolioCompanies);
+}
+
 function extractBackgroundColorOnExpertiseLabel(expertise){
     let backgroundColor;
     switch(expertise) {

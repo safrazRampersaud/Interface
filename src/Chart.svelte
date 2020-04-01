@@ -8,7 +8,12 @@
                 SEV_Companies_Per_TouchPoint_Event_Counter,
                 SEV_ExtractPointsForTouchPointDistribution,
                 SEV_ExtractTimeCommitmentsByExpertiseAndTouchPoint,
-                SEV_ExtractIntroductionCountByExpertiseAndTouchPoint
+                SEV_ExtractIntroductionCountByExpertiseAndTouchPoint,
+                SEV_ExtractIntroductionsByPortfolio,
+                SEV_ExtractTimeCommitmentByPortfolio,
+                SEV_ExtractSuccessRatiosByPortfolio,
+                SEV_Companies,
+                SEV_Internals
             } from './transformData.js';
 
     var ctx;
@@ -64,7 +69,6 @@
         let SEV_COMPANIES = SEV_Company_Per_TouchPoint(touchPoint);
         let SEV_COMPANIES_PER_TOUCHPOINT_DISTRIBUTION = SEV_ExtractPointsForTouchPointDistribution(touchPoint);
 
-        console.log(SEV_COMPANIES_PER_TOUCHPOINT_DISTRIBUTION);
         SEV_Chart = generateScatterChart(chartType, SEV_COMPANIES, chartLabel, SEV_COMPANIES_PER_TOUCHPOINT_DISTRIBUTION);
     }
 
@@ -88,6 +92,225 @@
         SEV_Chart = generateStackedBarChart(chartType, SEV_COMPANIES, chartLabel, expertiseByTP, yaxis);
     }
 
+    export function radarPorfolioSuccess(noargs){
+        if(SEV_Chart) SEV_Chart.destroy();
+        let chartType = "radar";
+        let chartLabel = "Success Ratios Per Partner Per Company";
+
+        let SEV_INTERNALS = SEV_Internals(); // Get unique internal personnel from the dataset
+        let SEV_COMPANIES = SEV_Companies(); // Get unique companies from the dataset
+
+        let successRatios = [];
+        for(let i = 0; i < SEV_INTERNALS.length; i++) {
+            let someVar = SEV_ExtractSuccessRatiosByPortfolio(SEV_INTERNALS[i], SEV_COMPANIES);
+            successRatios.push(someVar);
+//            console.log(successRatios[i]);
+        }
+        SEV_Chart = generateRadarChartPortfolio(chartType, chartLabel, SEV_COMPANIES, SEV_INTERNALS, successRatios);
+    }
+
+    //   https://travishorn.com/stacked-bar-chart-with-chart-js-846ebdf11c4e
+    function generateRadarChartPortfolio(type, label, labels, data, internalIntroductionsByCompanies){
+        ctx = document.getElementById('SEV_Chart');
+        return new Chart(ctx, {
+            type: type,
+            data: {
+                labels: data,
+                datasets: [
+                    {
+                        label: labels[0],
+                        data: internalIntroductionsByCompanies[0],
+                        backgroundColor: 'rgba(54, 162, 235, .45)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 2
+                    },
+                    // {
+                    //     label: labels[1],
+                    //     data: internalIntroductionsByCompanies[1],
+                    //     backgroundColor: 'rgba(255, 99, 132, .45)',
+                    //     borderColor: 'rgba(255, 99, 132, 1)',
+                    //     borderWidth: 2
+                    // },
+                    // {
+                    //     label: labels[2],
+                    //     data: internalIntroductionsByCompanies[2],
+                    //     backgroundColor: 'rgba(75, 192, 192, .45)',
+                    //     borderColor: 'rgba(75, 192, 192,1)',
+                    //     borderWidth: 2
+                    // },
+                    // {
+                    //     label: labels[3],
+                    //     data: internalIntroductionsByCompanies[3],
+                    //     backgroundColor: 'rgba(255, 206, 86, .45)',
+                    //     borderColor: 'rgba(255, 206, 86, 1)',
+                    //     borderWidth: 2
+                    // },
+                    // {
+                    //     label: labels[4],
+                    //     data: internalIntroductionsByCompanies[4],
+                    //     backgroundColor: 'rgba(153, 102, 255, .45)',
+                    //     borderColor: 'rgba(153, 102, 255, 1)',
+                    //     borderWidth: 2
+                    // },
+                    // {
+                    //     label: labels[5],
+                    //     data: internalIntroductionsByCompanies[5],
+                    //     borderColor: 'rgba(255, 159, 64, 1)',
+                    //     backgroundColor: 'rgba(255, 159, 64, .45)',
+                    //     borderWidth: 2
+                    // },
+                    // {
+                    //     label: labels[6],
+                    //     data: internalIntroductionsByCompanies[6],
+                    //     backgroundColor: 'rgba(123, 255, 24, .45)',
+                    //     borderColor: 'rgba(123, 255, 24, 1)',
+                    //     borderWidth: 2
+                    // },
+                    // {
+                    //     label: labels[7],
+                    //     data: internalIntroductionsByCompanies[7],
+                    //     backgroundColor: 'rgba(215, 120, 42, .45)',
+                    //     borderColor: 'rgba(215, 120, 42, 1)',
+                    //     borderWidth: 2
+                    // }
+                ]
+            },
+            options: {
+                // scales: {
+                //     yAxes: [{
+                //         ticks: {
+                //             beginAtZero: true
+                //         },
+                //         // stacked: true,
+                //         // scaleLabel: {
+                //         //     display: true,
+                //         //     labelString: "yiek"
+                //         // }
+                //     }],
+                //     xAxes: [{ stacked: true }]
+                // }
+            }
+        });
+    }
+
+    export function stackedPortfolioTimes(noargs){
+        if(SEV_Chart) SEV_Chart.destroy();
+        let chartType = "bar";
+        let chartLabel = "Total Time Commitment Per Internal Partner";
+        let yaxis = 'minutes';
+
+        let SEV_INTERNALS = SEV_Internals(); // Get unique internal personnel from the dataset
+        let SEV_COMPANIES = SEV_Companies(); // Get unique companies from the dataset
+
+        let internalTimeCommitmentByCompanies = [];
+        for(let i = 0; i < SEV_INTERNALS.length; i++) {
+            let someVar = SEV_ExtractTimeCommitmentByPortfolio(SEV_INTERNALS[i], SEV_COMPANIES);
+            internalTimeCommitmentByCompanies.push(someVar);
+        }
+        SEV_Chart = generateStackedBarChartPortfolio(chartType, chartLabel, SEV_COMPANIES, SEV_INTERNALS, internalTimeCommitmentByCompanies, yaxis);
+    }
+
+    export function stackedPortfolioIntros(noargs){
+        if(SEV_Chart) SEV_Chart.destroy();
+        let chartType = "bar";
+        let chartLabel = "Total Introductions Per Internal Partner";
+        let yaxis = 'introductions';
+
+        let SEV_INTERNALS = SEV_Internals(); // Get unique internal personnel from the dataset
+        let SEV_COMPANIES = SEV_Companies(); // Get unique companies from the dataset
+
+        let internalIntroductionsByCompanies = [];
+        for(let i = 0; i < SEV_INTERNALS.length; i++) {
+            let someVar = SEV_ExtractIntroductionsByPortfolio(SEV_INTERNALS[i], SEV_COMPANIES);
+            internalIntroductionsByCompanies.push(someVar);
+        }
+        SEV_Chart = generateStackedBarChartPortfolio(chartType, chartLabel, SEV_COMPANIES, SEV_INTERNALS, internalIntroductionsByCompanies, yaxis);
+    }
+
+    //   https://travishorn.com/stacked-bar-chart-with-chart-js-846ebdf11c4e
+    function generateStackedBarChartPortfolio(type, label, labels, data, internalIntroductionsByCompanies, yaxis){
+        ctx = document.getElementById('SEV_Chart');
+        return new Chart(ctx, {
+            type: type,
+            data: {
+                labels: data,
+                datasets: [
+                    {
+                        label: labels[0],
+                        data: internalIntroductionsByCompanies[0],
+                        backgroundColor: 'rgba(54, 162, 235, .45)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: labels[1],
+                        data: internalIntroductionsByCompanies[1],
+                        backgroundColor: 'rgba(255, 99, 132, .45)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: labels[2],
+                        data: internalIntroductionsByCompanies[2],
+                        backgroundColor: 'rgba(75, 192, 192, .45)',
+                        borderColor: 'rgba(75, 192, 192,1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: labels[3],
+                        data: internalIntroductionsByCompanies[3],
+                        backgroundColor: 'rgba(255, 206, 86, .45)',
+                        borderColor: 'rgba(255, 206, 86, 1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: labels[4],
+                        data: internalIntroductionsByCompanies[4],
+                        backgroundColor: 'rgba(153, 102, 255, .45)',
+                        borderColor: 'rgba(153, 102, 255, 1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: labels[5],
+                        data: internalIntroductionsByCompanies[5],
+                        borderColor: 'rgba(255, 159, 64, 1)',
+                        backgroundColor: 'rgba(255, 159, 64, .45)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: labels[6],
+                        data: internalIntroductionsByCompanies[6],
+                        backgroundColor: 'rgba(123, 255, 24, .45)',
+                        borderColor: 'rgba(123, 255, 24, 1)',
+                        borderWidth: 2
+                    },
+                    {
+                        label: labels[7],
+                        data: internalIntroductionsByCompanies[7],
+                        backgroundColor: 'rgba(215, 120, 42, .45)',
+                        borderColor: 'rgba(215, 120, 42, 1)',
+                        borderWidth: 2
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        },
+                        stacked: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: yaxis
+                        }
+                    }],
+                    xAxes: [{ stacked: true }]
+                }
+            }
+        });
+    }
+
     export function stackedIntroductionsPerCompany(touchPoint){
         if(SEV_Chart) SEV_Chart.destroy();
         let chartType = "bar";
@@ -108,7 +331,7 @@
         SEV_Chart = generateStackedBarChart(chartType, SEV_COMPANIES, chartLabel, expertiseByTP, yaxis);
     }
 
- //   https://travishorn.com/stacked-bar-chart-with-chart-js-846ebdf11c4e
+    //   https://travishorn.com/stacked-bar-chart-with-chart-js-846ebdf11c4e
     function generateStackedBarChart(type, labels, label, data, yaxis){
         ctx = document.getElementById('SEV_Chart');
         return new Chart(ctx, {
@@ -119,14 +342,14 @@
                     {
                         label: expertise[0],
                         data: data[0],
-                        backgroundColor: 'rgba(54, 162, 235,.45)',
+                        backgroundColor: 'rgba(54, 162, 235, .45)',
                         borderColor: 'rgba(54, 162, 235,1)',
                         borderWidth: 2
                     },
                     {
                         label: expertise[1],
                         data: data[1],
-                        backgroundColor: 'rgba(255, 99, 132,.45)',
+                        backgroundColor: 'rgba(255, 99, 132, .45)',
                         borderColor: 'rgba(255, 99, 132, 1)',
                         borderWidth: 2
                     },
