@@ -26,9 +26,12 @@
 
         let chartLabel = "";
         if(touchPoint === "Email")
-            chartLabel = "Average " + touchPoint.toString() + " Response Time Per Company";
+            chartLabel = "Average " + touchPoint.toString() + " Response Time Over Portfolio";
         else
-            chartLabel = "Average " + touchPoint.toString() + " Time Per Company";
+            chartLabel = "Average " + touchPoint.toString() + " Time Over Portfolio";
+
+        let yaxis = 'Time (hrs)';
+        let xaxis = "Portfolio Companies";
 
         let SEV_COMPANIES = SEV_Company_Per_TouchPoint(touchPoint);
         let SEV_COMPANIES_EVENT_COUNTER_PER_TOUCHPOINT = SEV_Companies_Per_TouchPoint_Event_Counter(SEV_COMPANIES, touchPoint);
@@ -38,7 +41,7 @@
             SEV_COMPANIES_AVERAGE_TIMECOMMITMENT_PER_COMPANY[i] = SEV_COMPANIES_PER_TOUCHPOINT_TIMECOMMITMENT[i] / SEV_COMPANIES_EVENT_COUNTER_PER_TOUCHPOINT[i];
         }
 
-        SEV_Chart = generateBarChart(chartType, SEV_COMPANIES, chartLabel, SEV_COMPANIES_AVERAGE_TIMECOMMITMENT_PER_COMPANY);
+        SEV_Chart = generateBarChart(chartType, SEV_COMPANIES, chartLabel, SEV_COMPANIES_AVERAGE_TIMECOMMITMENT_PER_COMPANY,yaxis,xaxis);
     }
 
     export function totalResponseTimePerCompany(touchPoint){
@@ -46,14 +49,17 @@
         let chartType = "polarArea";
         let chartLabel = "";
         if(touchPoint === "Email")
-            chartLabel = "Total " + touchPoint.toString() + " Response Time Per Company";
+            chartLabel = "Total " + touchPoint.toString() + " Response Time (hrs) Over Portfolio";
         else
-            chartLabel = "Total " + touchPoint.toString() + " Time Per Company";
+            chartLabel = "Total " + touchPoint.toString() + " Time (hrs) Over Portfolio";
+
+        let yaxis = 'Time (hrs)';
+        let xaxis = "Portfolio Companies";
 
         let SEV_COMPANIES = SEV_Company_Per_TouchPoint(touchPoint);
         let SEV_COMPANIES_PER_TOUCHPOINT_TIMECOMMITMENT = SEV_TimeCommitment_Per_Company(SEV_COMPANIES, touchPoint);
 
-        SEV_Chart = generatePolarChart(chartType, SEV_COMPANIES, chartLabel, SEV_COMPANIES_PER_TOUCHPOINT_TIMECOMMITMENT);
+        SEV_Chart = generatePolarChart(chartType, SEV_COMPANIES, chartLabel, SEV_COMPANIES_PER_TOUCHPOINT_TIMECOMMITMENT,xaxis,yaxis);
     }
 
     export function timeCommitmentDistributionPerCompany(touchPoint){
@@ -77,9 +83,13 @@
         let chartType = "bar";
         let chartLabel = "";
         if(touchPoint === "Email")
-            chartLabel = "Total " + touchPoint.toString() + " Response Time Per Company";
+            chartLabel = "Total " + touchPoint.toString() + " Response Time Over Portfolio";
         else
-            chartLabel = "Total " + touchPoint.toString() + " Time Per Company";
+            chartLabel = "Total " + touchPoint.toString() + " Time Over Portfolio";
+
+        let yaxis = 'Time (hrs)';
+        let xaxis = "Portfolio Companies";
+
 
         let SEV_COMPANIES = SEV_Company_Per_TouchPoint(touchPoint);
 
@@ -88,8 +98,7 @@
         let recruitingExpertiseByTP = SEV_ExtractTimeCommitmentsByExpertiseAndTouchPoint(touchPoint, SEV_COMPANIES, expertise[2]);
 
         let expertiseByTP = [engineeringExpertiseByTP, salesExpertiseByTP, recruitingExpertiseByTP];
-        let yaxis = 'minutes';
-        SEV_Chart = generateStackedBarChart(chartType, SEV_COMPANIES, chartLabel, expertiseByTP, yaxis);
+        SEV_Chart = generateStackedBarChart(chartType, SEV_COMPANIES, chartLabel, expertiseByTP, yaxis, xaxis);
     }
 
     export function radarPorfolioSuccess(noargs){
@@ -104,7 +113,6 @@
         for(let i = 0; i < SEV_INTERNALS.length; i++) {
             let someVar = SEV_ExtractSuccessRatiosByPortfolio(SEV_INTERNALS[i], SEV_COMPANIES);
             successRatios.push(someVar);
-//            console.log(successRatios[i]);
         }
         SEV_Chart = generateRadarChartPortfolio(chartType, chartLabel, SEV_COMPANIES, SEV_INTERNALS, successRatios);
     }
@@ -196,25 +204,29 @@
     export function stackedPortfolioTimes(noargs){
         if(SEV_Chart) SEV_Chart.destroy();
         let chartType = "bar";
-        let chartLabel = "Total Time Commitment Per Internal Partner";
-        let yaxis = 'minutes';
+        let chartLabel = "Total Time Commitment Over Portfolio";
+        let yaxis = 'Time (hrs)';
+        let xaxis = "Portfolio Companies";
+
 
         let SEV_INTERNALS = SEV_Internals(); // Get unique internal personnel from the dataset
         let SEV_COMPANIES = SEV_Companies(); // Get unique companies from the dataset
 
         let internalTimeCommitmentByCompanies = [];
+
         for(let i = 0; i < SEV_INTERNALS.length; i++) {
             let someVar = SEV_ExtractTimeCommitmentByPortfolio(SEV_INTERNALS[i], SEV_COMPANIES);
             internalTimeCommitmentByCompanies.push(someVar);
         }
-        SEV_Chart = generateStackedBarChartPortfolio(chartType, chartLabel, SEV_COMPANIES, SEV_INTERNALS, internalTimeCommitmentByCompanies, yaxis);
+        SEV_Chart = generateStackedBarChartPortfolio(chartType, chartLabel, SEV_INTERNALS, SEV_COMPANIES, internalTimeCommitmentByCompanies, yaxis, xaxis);
     }
 
     export function stackedPortfolioIntros(noargs){
         if(SEV_Chart) SEV_Chart.destroy();
         let chartType = "bar";
-        let chartLabel = "Total Introductions Per Internal Partner";
-        let yaxis = 'introductions';
+        let chartLabel = "Total Introductions Over Portfolio";
+        let yaxis = 'Number of Introductions';
+        let xaxis = "Portfolio Companies";
 
         let SEV_INTERNALS = SEV_Internals(); // Get unique internal personnel from the dataset
         let SEV_COMPANIES = SEV_Companies(); // Get unique companies from the dataset
@@ -224,11 +236,11 @@
             let someVar = SEV_ExtractIntroductionsByPortfolio(SEV_INTERNALS[i], SEV_COMPANIES);
             internalIntroductionsByCompanies.push(someVar);
         }
-        SEV_Chart = generateStackedBarChartPortfolio(chartType, chartLabel, SEV_COMPANIES, SEV_INTERNALS, internalIntroductionsByCompanies, yaxis);
+        SEV_Chart = generateStackedBarChartPortfolio(chartType, chartLabel, SEV_INTERNALS, SEV_COMPANIES, internalIntroductionsByCompanies, yaxis, xaxis);
     }
 
     //   https://travishorn.com/stacked-bar-chart-with-chart-js-846ebdf11c4e
-    function generateStackedBarChartPortfolio(type, label, labels, data, internalIntroductionsByCompanies, yaxis){
+    function generateStackedBarChartPortfolio(type, label, labels, data, internalIntroductionsByCompanies, yaxis, xaxis){
         ctx = document.getElementById('SEV_Chart');
         return new Chart(ctx, {
             type: type,
@@ -273,8 +285,8 @@
                     {
                         label: labels[5],
                         data: internalIntroductionsByCompanies[5],
-                        borderColor: 'rgba(255, 159, 64, 1)',
                         backgroundColor: 'rgba(255, 159, 64, .45)',
+                        borderColor: 'rgba(255, 159, 64, 1)',
                         borderWidth: 2
                     },
                     {
@@ -287,25 +299,51 @@
                     {
                         label: labels[7],
                         data: internalIntroductionsByCompanies[7],
-                        backgroundColor: 'rgba(215, 120, 42, .45)',
-                        borderColor: 'rgba(215, 120, 42, 1)',
+                        backgroundColor: 'rgba(217, 255, 0, .45)',
+                        borderColor: 'rgba(217, 255, 0, 0.85)',
                         borderWidth: 2
                     }
                 ]
             },
             options: {
+                legend: {
+                    display: true,
+                    labels: {
+                        fontSize: 14
+                    }
+                },
+                title: {
+                    display: true,
+                    text: label,
+                    fontSize: 24,
+                    fontColor: '#018786',
+                },
                 scales: {
                     yAxes: [{
                         ticks: {
-                            beginAtZero: true
+                            beginAtZero: true,
+                            fontSize: 16
                         },
                         stacked: true,
                         scaleLabel: {
                             display: true,
-                            labelString: yaxis
+                            labelString: yaxis,
+                            fontSize: 18,
+                            fontColor: '#018786'
                         }
                     }],
-                    xAxes: [{ stacked: true }]
+                    xAxes: [{
+                        ticks: {
+                            fontSize: 16
+                        },
+                        stacked: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: xaxis,
+                            fontSize: 18,
+                            fontColor: '#018786'
+                        }
+                    }]
                 }
             }
         });
@@ -314,11 +352,9 @@
     export function stackedIntroductionsPerCompany(touchPoint){
         if(SEV_Chart) SEV_Chart.destroy();
         let chartType = "bar";
-        let chartLabel = "";
-        if(touchPoint === "Email")
-            chartLabel = "Total " + touchPoint.toString() + " Response Time Per Company";
-        else
-            chartLabel = "Total " + touchPoint.toString() + " Time Per Company";
+        let chartLabel = "Total " + touchPoint + " Introductions Over Portfolio";
+        let yaxis = 'Number of Introductions';
+        let xaxis = "Portfolio Companies";
 
         let SEV_COMPANIES = SEV_Company_Per_TouchPoint(touchPoint);
 
@@ -326,13 +362,12 @@
         let salesExpertiseByTP = SEV_ExtractIntroductionCountByExpertiseAndTouchPoint(touchPoint, SEV_COMPANIES, expertise[1]);
         let recruitingExpertiseByTP = SEV_ExtractIntroductionCountByExpertiseAndTouchPoint(touchPoint, SEV_COMPANIES, expertise[2]);
 
-        let yaxis = 'introductions';
         let expertiseByTP = [engineeringExpertiseByTP, salesExpertiseByTP, recruitingExpertiseByTP];
-        SEV_Chart = generateStackedBarChart(chartType, SEV_COMPANIES, chartLabel, expertiseByTP, yaxis);
+        SEV_Chart = generateStackedBarChart(chartType, SEV_COMPANIES, chartLabel, expertiseByTP, yaxis, xaxis);
     }
 
     //   https://travishorn.com/stacked-bar-chart-with-chart-js-846ebdf11c4e
-    function generateStackedBarChart(type, labels, label, data, yaxis){
+    function generateStackedBarChart(type, labels, label, data, yaxis, xaxis){
         ctx = document.getElementById('SEV_Chart');
         return new Chart(ctx, {
             type: type,
@@ -363,18 +398,44 @@
                 ]
             },
             options: {
+                legend: {
+                    display: true,
+                    labels: {
+                        fontSize: 14
+                    }
+                },
+                title: {
+                    display: true,
+                    text: label,
+                    fontSize: 24,
+                    fontColor: '#018786',
+                },
                 scales: {
                     yAxes: [{
                         ticks: {
-                            beginAtZero: true
+                            beginAtZero: true,
+                            fontSize: 16
                         },
                         stacked: true,
                         scaleLabel: {
                             display: true,
-                            labelString: yaxis
+                            labelString: yaxis,
+                            fontSize: 18,
+                            fontColor: '#018786'
                         }
                     }],
-                    xAxes: [{ stacked: true }]
+                    xAxes: [{
+                        ticks: {
+                            fontSize: 16
+                        },
+                        stacked: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: xaxis,
+                            fontSize: 18,
+                            fontColor: '#018786'
+                        }
+                    }]
                 }
             }
         });
@@ -413,17 +474,50 @@
                 }]
             },
             options: {
-                scales: {
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'minutes'
-                        }
-                    },
+                legend: {
+                    display: true,
+                    labels: {
+                        fontSize: 14
+                    }
+                },
+                title: {
+                    display: true,
+                    text: label,
+                    fontSize: 24,
+                    fontColor: '#018786',
+                },
+//                 scales: {
+//                     yAxes: [{
+//                         ticks: {
+// //                            beginAtZero: true,
+//                             fontSize: 16
+//                         },
+//                         stacked: true,
+//                         scaleLabel: {
+//                             display: false,
+//  //                           labelString: yaxis,
+//                             fontSize: 18,
+//                             fontColor: '#018786'
+//                         }
+//                     }],
+//                     xAxes: [{
+//                         ticks: {
+//                             fontSize: 16
+//                         },
+//                         stacked: true,
+//                         scaleLabel: {
+//                             display: false,
+//    //                         labelString: xaxis,
+//                             fontSize: 18,
+//                             fontColor: '#018786'
+//                         }
+//                     }]
+//                 }
             }
         });
     }
 
-    function generateBarChart(type, labels, label, data){
+    function generateBarChart(type, labels, label, data, yaxis, xaxis){
         ctx = document.getElementById('SEV_Chart');
         return new Chart(ctx, {
             type: type,
@@ -459,18 +553,40 @@
                 legend: {
                     display: false,
                 },
+                title: {
+                    display: true,
+                    text: label,
+                    fontSize: 24,
+                    fontColor: '#018786',
+                },
                 scales: {
                     yAxes: [{
                         ticks: {
-                            beginAtZero: true
+                            beginAtZero: true,
+                            fontSize: 16
                         },
+                        stacked: true,
                         scaleLabel: {
                             display: true,
-                            labelString: 'minutes'
+                            labelString: yaxis,
+                            fontSize: 18,
+                            fontColor: '#018786'
+                        }
+                    }],
+                    xAxes: [{
+                        ticks: {
+                            fontSize: 16
+                        },
+                        stacked: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: xaxis,
+                            fontSize: 18,
+                            fontColor: '#018786'
                         }
                     }]
                 }
-            }
+           }
         });
     }
 
