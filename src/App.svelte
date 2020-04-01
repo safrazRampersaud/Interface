@@ -13,10 +13,11 @@
                 averageResponseTimePerCompany,
                 timeCommitmentDistributionPerCompany,
                 stackedExpertiseTimeCommitmentPerCompany,
-                stackedIntroductionsPerCompany
-            }  from './Chart.svelte'
-
-   // import { format } from 'd3-format'
+                stackedIntroductionsPerCompany,
+                stackedPortfolioIntros,
+                stackedPortfolioTimes,
+                radarPorfolioSuccess,
+                }  from './Chart.svelte'
 
 var Time_to_death     = 32;
 var logN              = Math.log(7e6);
@@ -121,7 +122,7 @@ var duration          = 7*12*1e10;
             <!--Stacked Time-->
             <Button on:click={() => afterUpdate(stackedExpertiseTimeCommitmentPerCompany("Email"))} color="secondary" variant="raised" dense> Totals By Expertise </Button>
             <!--Stacked Count-->
-            <Button on:click={() => afterUpdate(stackedIntroductionsPerCompany("Email"))} color="secondary" variant="raised" dense> Introductions By Expertise </Button>
+            <Button on:click={() => afterUpdate(stackedIntroductionsPerCompany("Email"))} color="secondary" variant="raised" dense> Intros By Expertise </Button>
         </div>
 
         <div class="column">
@@ -140,7 +141,7 @@ var duration          = 7*12*1e10;
             <!--Stacked Time-->
             <Button on:click={() => afterUpdate(stackedExpertiseTimeCommitmentPerCompany("Calendar"))} color="secondary" variant="raised" dense> Totals By Expertise </Button>
             <!--Stacked Count-->
-            <Button on:click={() => afterUpdate(stackedIntroductionsPerCompany("Calendar"))} color="secondary" variant="raised" dense> Introductions By Expertise </Button>
+            <Button on:click={() => afterUpdate(stackedIntroductionsPerCompany("Calendar"))} color="secondary" variant="raised" dense> Intros By Expertise </Button>
         </div>
 
         <div class="column">
@@ -160,10 +161,24 @@ var duration          = 7*12*1e10;
             <!--Stacked Time-->
             <Button on:click={() => afterUpdate(stackedExpertiseTimeCommitmentPerCompany("Call"))} color="secondary" variant="raised" dense> Totals By Expertise </Button>
             <!--Stacked Count-->
-            <Button on:click={() => afterUpdate(stackedIntroductionsPerCompany("Call"))} color="secondary" variant="raised" dense> Introductions By Expertise </Button>
+            <Button on:click={() => afterUpdate(stackedIntroductionsPerCompany("Call"))} color="secondary" variant="raised" dense> Intros By Expertise </Button>
         </div>
 
-<!--        <div style="flex: 0 0 20; width:20px"></div>-->
+        <div class="column">
+            <div class="minorTitlePortfolio">Portfolio</div>
+            <!--            <div class="paneldesc" style="height:30px">Length of incubation period, }.<br></div>-->
+            <!--            <div class="slidertext">{(D_incbation).toFixed(2)} days</div>-->
+            <!--            <input class="range" style="margin-bottom: 8px"type=range bind:value={D_incbation} min={0.15} max=24 step=0.0001>-->
+            <!--            <div class="paneldesc" style="height:29px; border-top: 1px solid #EEE; padding-top: 10px">Duration patient is infectious, }.<br></div>-->
+            <!--            <div class="slidertext">{D_infectious} Days</div>-->
+            <!--            <input class="range" type=range bind:value={D_infectious} min={0} max=24 step=0.01>-->
+            <br>
+<!--            <Button on:click={() => afterUpdate(radarPorfolioSuccess("void"))} color="secondary" variant="raised" dense> Success Ratios</Button>-->
+            <Button on:click={() => afterUpdate(stackedPortfolioIntros("void"))} color="secondary" variant="raised" dense> Intros</Button>
+            <Button on:click={() => afterUpdate(stackedPortfolioTimes("void"))} color="secondary" variant="raised" dense> Time Commitments</Button>
+        </div>
+
+        <!--        <div style="flex: 0 0 20; width:20px"></div>-->
 
 <!--        <div class="column">-->
 <!--            <div class="paneltitle">Mortality Statistics</div>-->
