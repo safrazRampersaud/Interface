@@ -1,10 +1,10 @@
 export const proxyData = [
 {
-    "timeCommitment": 1098,
+    "timeCommitment": 1422,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
         "phone": "354-879-0315",
         "expertise": "Engineering"
 },
@@ -17,22 +17,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Heather",
-        "last": "Dunn",
-        "title": "People",
-        "email": "heather@frontreader.com",
-        "phone": "846-924-1628",
+    "company": "NewFront",
+        "first": "Pallavi",
+        "last": "Devaraj",
+        "title": "Onboarding",
+        "email": "pallavi@newfront.com",
+        "phone": "416-429-0752",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 120,
+    "timeCommitment": 150,
     "internal": {
-    "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
-        "phone": "970-344-7157",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
+        "phone": "354-879-0315",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -44,21 +44,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Tihomir",
-        "last": "Bajic",
-        "title": "CEO",
-        "email": "tihomir@pos-i-bility.com",
-        "phone": "621-555-5748",
+    "company": "NewFront",
+        "first": "Pallavi",
+        "last": "Devaraj",
+        "title": "Onboarding",
+        "email": "pallavi@newfront.com",
+        "phone": "416-429-0752",
         "demandExpertise": "Engineering"
 }
 },
 {
     "timeCommitment": 15,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
         "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
@@ -71,21 +71,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Sassa",
-        "last": "Kangas",
-        "title": "Operations",
-        "email": "sassa@devopsearch.com",
-        "phone": "779-386-9839",
+    "company": "Verta.ai",
+        "first": "Conrado",
+        "last": "Miranda",
+        "title": "CTO",
+        "email": "conrado@verta.ai",
+        "phone": "550-937-4672",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 1021,
+    "timeCommitment": 629,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@sweatequity.vc",
         "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
@@ -98,21 +98,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Hammad",
-        "last": "Bashir",
-        "title": "Product",
-        "email": "hammad@sixtenfortyone.com",
-        "phone": "752-245-0015",
+    "company": "ColonyLabs",
+        "first": "Jason",
+        "last": "Libbey",
+        "title": "Co-Founder",
+        "email": "jason@colonylabs.com",
+        "phone": "266-359-0938",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 60,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -125,21 +125,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Ravi",
-        "last": "Shetye",
-        "title": "Engineering",
-        "email": "ravi@super.ai",
-        "phone": "332-808-7923",
+    "company": "NewFront",
+        "first": "Gordon",
+        "last": "Wintrob",
+        "title": "CTO",
+        "email": "gordan@newfront.com",
+        "phone": "238-518-2523",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 90,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -152,21 +152,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Boris",
-        "last": "Fowler",
-        "title": "Recruiting",
-        "email": "boris@oruni.io",
-        "phone": "437-723-1046",
+    "company": "Ubiquity6",
+        "first": "Natalie",
+        "last": "Gavello",
+        "title": "Talent",
+        "email": "natalie@ubiquity6.com",
+        "phone": "770-480-8802",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 652,
+    "timeCommitment": 974,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -179,22 +179,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Natalie",
-        "last": "Gavello",
-        "title": "Talent",
-        "email": "natalie@sixtenfortyone.com",
-        "phone": "770-480-8802",
+    "company": "Verta.ai",
+        "first": "Conrado",
+        "last": "Miranda",
+        "title": "CTO",
+        "email": "conrado@verta.ai",
+        "phone": "550-937-4672",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 15,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -206,21 +206,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Ann-Marie",
-        "last": "Harbour",
-        "title": "Studio",
-        "email": "ann-marie@sixtenfortyone.com",
-        "phone": "273-771-6006",
+    "company": "ColonyLabs",
+        "first": "Jennifer",
+        "last": "Smith",
+        "title": "CEO",
+        "email": "jennifer@colonylabs.com",
+        "phone": "224-308-3979",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 287,
+    "timeCommitment": 606,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
         "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
@@ -233,22 +233,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SuccessLabs",
-        "first": "Aaron",
-        "last": "Podolny",
-        "title": "CTO",
-        "email": "aaron@successlabs.com",
-        "phone": "489-390-6138",
+    "company": "Ubiquity6",
+        "first": "Hammad",
+        "last": "Bashir",
+        "title": "Product",
+        "email": "hammad@ubiquity6.com",
+        "phone": "752-245-0015",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 10,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
+        "phone": "971-616-9127",
         "expertise": "Sales"
 },
     "introduction": {
@@ -260,21 +260,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Jackie",
-        "last": "Lamping",
-        "title": "CMO",
-        "email": "jackie@frontreader.com",
-        "phone": "732-861-6046",
+    "company": "LTSE",
+        "first": "Daniel",
+        "last": "Amar",
+        "title": "Trading",
+        "email": "daniel@ltse.com",
+        "phone": "970-573-2528",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 1237,
+    "timeCommitment": 211,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
         "phone": "354-879-0315",
         "expertise": "Engineering"
 },
@@ -287,22 +287,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Heather",
-        "last": "Dunn",
-        "title": "People",
-        "email": "heather@frontreader.com",
-        "phone": "846-924-1628",
+    "company": "NewFront",
+        "first": "Pallavi",
+        "last": "Devaraj",
+        "title": "Onboarding",
+        "email": "pallavi@newfront.com",
+        "phone": "416-429-0752",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 629,
+    "timeCommitment": 821,
     "internal": {
-    "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
-        "phone": "970-344-7157",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
+        "phone": "354-879-0315",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -314,22 +314,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Ankit",
-        "last": "Kumar",
-        "title": "CTO",
-        "email": "ankit@sixtenfortyone.com",
-        "phone": "291-896-4027",
+    "company": "SwoopSearch",
+        "first": "Michael",
+        "last": "Bottum",
+        "title": "Engineering",
+        "email": "michael@swoopsearch.com",
+        "phone": "440-324-3918",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
-        "phone": "971-616-9127",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -341,22 +341,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "GreatDelta",
-        "first": "Attila",
-        "last": "Kabai",
-        "title": "CEO",
-        "email": "attila@greatdelta.com",
-        "phone": "580-797-0890",
+    "company": "NewFront",
+        "first": "Urooj",
+        "last": "Kazmi",
+        "title": "Brokerage",
+        "email": "urooj@newfront.com",
+        "phone": "307-825-4363",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 90,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -368,22 +368,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Michael",
-        "last": "Bottum",
-        "title": "Engineering",
-        "email": "michael@devopsearch.com",
-        "phone": "440-324-3918",
+    "company": "Ubiquity6",
+        "first": "Ankit",
+        "last": "Kumar",
+        "title": "CTO",
+        "email": "ankit@ubiquity6.com",
+        "phone": "291-896-4027",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
-        "phone": "975-948-6140",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
+        "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -395,22 +395,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Holly",
-        "last": "Grant",
-        "title": "COO",
-        "email": "holly@pos-i-bility.com",
-        "phone": "705-307-4261",
+    "company": "ColonyLabs",
+        "first": "Aaron",
+        "last": "Podolny",
+        "title": "CTO",
+        "email": "aaron@colonylabs.com",
+        "phone": "489-390-6138",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 70,
+    "timeCommitment": 45,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
-        "phone": "720-506-5506",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -422,22 +422,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Morgan",
-        "last": "Dollard",
-        "title": "CPO",
-        "email": "morgan@devopsearch.com",
-        "phone": "428-976-4253",
+    "company": "Verta.ai",
+        "first": "Manasi",
+        "last": "Vartak",
+        "title": "CEO",
+        "email": "manasi@verta.ai",
+        "phone": "279-302-8895",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 90,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
-        "phone": "975-948-6140",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
+        "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -449,21 +449,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Conrado",
-        "last": "Miranda",
-        "title": "CTO",
-        "email": "conrado@super.ai",
-        "phone": "550-937-4672",
+    "company": "Ubiquity6",
+        "first": "Natalie",
+        "last": "Gavello",
+        "title": "Talent",
+        "email": "natalie@ubiquity6.com",
+        "phone": "770-480-8802",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 10,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
         "phone": "354-879-0315",
         "expertise": "Engineering"
 },
@@ -476,21 +476,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Michael",
-        "last": "Brown",
-        "title": "COO",
-        "email": "michael@frontreader.com",
-        "phone": "817-315-9866",
+    "company": "NewFront",
+        "first": "Gordon",
+        "last": "Wintrob",
+        "title": "CTO",
+        "email": "gordan@newfront.com",
+        "phone": "238-518-2523",
         "demandExpertise": "Engineering"
 }
 },
 {
     "timeCommitment": 150,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
         "phone": "971-616-9127",
         "expertise": "Sales"
 },
@@ -503,22 +503,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Jean",
-        "last": "Rogers",
-        "title": "CRO",
-        "email": "jean@pos-i-bility.com",
-        "phone": "256-345-9873",
+    "company": "NewFront",
+        "first": "Jackie",
+        "last": "Lamping",
+        "title": "CMO",
+        "email": "jackie@newfront.com",
+        "phone": "732-861-6046",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 502,
+    "timeCommitment": 129,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
-        "phone": "792-328-3995",
+    "first": "Dan",
+        "last": "Portillio",
+        "email": "dan@sweatequity.vc",
+        "phone": "367-987-1138",
         "expertise": "Sales"
 },
     "introduction": {
@@ -530,22 +530,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Anjney",
-        "last": "Midha",
-        "title": "CEO",
-        "email": "anjney@sixtenfortyone.com",
-        "phone": "526-942-3675",
+    "company": "LTSE",
+        "first": "Daniel",
+        "last": "Amar",
+        "title": "Trading",
+        "email": "daniel@ltse.com",
+        "phone": "970-573-2528",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 1304,
+    "timeCommitment": 1050,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -557,22 +557,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Pallavi",
-        "last": "Devaraj",
-        "title": "Onboarding",
-        "email": "pallavi@frontreader.com",
-        "phone": "416-429-0752",
+    "company": "LTSE",
+        "first": "Tihomir",
+        "last": "Bajic",
+        "title": "CEO",
+        "email": "tihomir@ltse.com",
+        "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -584,21 +584,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Michael",
-        "last": "Brown",
-        "title": "COO",
-        "email": "michael@frontreader.com",
-        "phone": "817-315-9866",
+    "company": "Verta.ai",
+        "first": "Ravi",
+        "last": "Shetye",
+        "title": "Engineering",
+        "email": "ravi@verta.ai",
+        "phone": "332-808-7923",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 45,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
         "phone": "354-879-0315",
         "expertise": "Engineering"
 },
@@ -611,21 +611,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Michael",
-        "last": "Bottum",
-        "title": "Engineering",
-        "email": "michael@devopsearch.com",
-        "phone": "440-324-3918",
+    "company": "Ubiquity6",
+        "first": "Ankit",
+        "last": "Kumar",
+        "title": "CTO",
+        "email": "ankit@ubiquity6.com",
+        "phone": "291-896-4027",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 90,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
         "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
@@ -638,22 +638,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "SuccessLabs",
-        "first": "Jason",
-        "last": "Libbey",
-        "title": "Co-Founder",
-        "email": "jason@successlabs.com",
-        "phone": "266-359-0938",
+    "company": "Ubiquity6",
+        "first": "Natalie",
+        "last": "Gavello",
+        "title": "Talent",
+        "email": "natalie@ubiquity6.com",
+        "phone": "770-480-8802",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 1325,
+    "timeCommitment": 1064,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
-        "phone": "720-506-5506",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
+        "phone": "971-616-9127",
         "expertise": "Sales"
 },
     "introduction": {
@@ -665,22 +665,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Quinn",
-        "last": "Bottum",
-        "title": "Co-Founder",
-        "email": "quinn@devopsearch.com",
-        "phone": "279-554-6731",
+    "company": "Elev8",
+        "first": "Attila",
+        "last": "Kabai",
+        "title": "CEO",
+        "email": "attila@elev8.com",
+        "phone": "580-797-0890",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 70,
+    "timeCommitment": 90,
     "internal": {
-    "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
-        "phone": "970-344-7157",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
+        "phone": "354-879-0315",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -692,21 +692,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Gordon",
-        "last": "Wintrob",
-        "title": "CTO",
-        "email": "gordan@frontreader.com",
-        "phone": "238-518-2523",
+    "company": "NewFront",
+        "first": "Michael",
+        "last": "Brown",
+        "title": "COO",
+        "email": "michael@newfront.com",
+        "phone": "817-315-9866",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 45,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -719,22 +719,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Michael",
-        "last": "Bottum",
-        "title": "Engineering",
-        "email": "michael@devopsearch.com",
-        "phone": "440-324-3918",
+    "company": "LTSE",
+        "first": "Tihomir",
+        "last": "Bajic",
+        "title": "CEO",
+        "email": "tihomir@ltse.com",
+        "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 150,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -746,22 +746,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Aaron",
-        "last": "Forth",
-        "title": "CPO",
-        "email": "aaron@frontreader.com",
-        "phone": "413-510-9935",
+    "company": "LTSE",
+        "first": "Marcus",
+        "last": "Gosling",
+        "title": "Product",
+        "email": "marcus@ltse.com",
+        "phone": "626-582-8603",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 15,
+    "timeCommitment": 45,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
-        "phone": "720-506-5506",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -773,22 +773,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Ben",
-        "last": "Rathi",
-        "title": "Product",
-        "email": "ben@oruni.io",
-        "phone": "487-880-2408",
+    "company": "NewFront",
+        "first": "Zachary",
+        "last": "Kruth",
+        "title": "Finance",
+        "email": "zachary@newfront.com",
+        "phone": "519-759-4907",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 120,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -800,21 +800,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Ann-Marie",
-        "last": "Harbour",
-        "title": "Studio",
-        "email": "ann-marie@sixtenfortyone.com",
-        "phone": "273-771-6006",
+    "company": "Ubiquity6",
+        "first": "Anjney",
+        "last": "Midha",
+        "title": "CEO",
+        "email": "anjney@ubiquity6.com",
+        "phone": "526-942-3675",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 120,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -827,21 +827,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Sassa",
-        "last": "Kangas",
-        "title": "Operations",
-        "email": "sassa@devopsearch.com",
-        "phone": "779-386-9839",
+    "company": "Ubiquity6",
+        "first": "Natalie",
+        "last": "Gavello",
+        "title": "Talent",
+        "email": "natalie@ubiquity6.com",
+        "phone": "770-480-8802",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 30,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -854,21 +854,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Ravi",
-        "last": "Shetye",
-        "title": "Engineering",
-        "email": "ravi@super.ai",
-        "phone": "332-808-7923",
+    "company": "LTSE",
+        "first": "Tihomir",
+        "last": "Bajic",
+        "title": "CEO",
+        "email": "tihomir@ltse.com",
+        "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 882,
+    "timeCommitment": 1180,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
         "phone": "792-328-3995",
         "expertise": "Sales"
 },
@@ -881,22 +881,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Marcus",
-        "last": "Gosling",
-        "title": "Product",
-        "email": "marcus@pos-i-bility.com",
-        "phone": "626-582-8603",
+    "company": "SwoopSearch",
+        "first": "Morgan",
+        "last": "Dollard",
+        "title": "CPO",
+        "email": "morgan@swoopsearch.com",
+        "phone": "428-976-4253",
         "demandExpertise": "Sales"
 }
 },
 {
     "timeCommitment": 45,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
-        "phone": "424-286-6787",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
+        "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -908,21 +908,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Conrado",
-        "last": "Miranda",
-        "title": "CTO",
-        "email": "conrado@super.ai",
-        "phone": "550-937-4672",
+    "company": "Ubiquity6",
+        "first": "Hammad",
+        "last": "Bashir",
+        "title": "Product",
+        "email": "hammad@ubiquity6.com",
+        "phone": "752-245-0015",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 150,
+    "timeCommitment": 90,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -935,22 +935,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Natalie",
-        "last": "Gavello",
-        "title": "Talent",
-        "email": "natalie@sixtenfortyone.com",
-        "phone": "770-480-8802",
+    "company": "LTSE",
+        "first": "Holly",
+        "last": "Grant",
+        "title": "COO",
+        "email": "holly@ltse.com",
+        "phone": "705-307-4261",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 1181,
+    "timeCommitment": 929,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
-        "phone": "975-948-6140",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
+        "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -962,22 +962,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Sassa",
-        "last": "Kangas",
-        "title": "Operations",
-        "email": "sassa@devopsearch.com",
-        "phone": "779-386-9839",
+    "company": "Ubiquity6",
+        "first": "Natalie",
+        "last": "Gavello",
+        "title": "Talent",
+        "email": "natalie@ubiquity6.com",
+        "phone": "770-480-8802",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 60,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -989,21 +989,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Heather",
-        "last": "Dunn",
-        "title": "People",
-        "email": "heather@frontreader.com",
-        "phone": "846-924-1628",
+    "company": "SwoopSearch",
+        "first": "Michael",
+        "last": "Bottum",
+        "title": "Engineering",
+        "email": "michael@swoopsearch.com",
+        "phone": "440-324-3918",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 328,
+    "timeCommitment": 1053,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
         "phone": "792-328-3995",
         "expertise": "Sales"
 },
@@ -1016,22 +1016,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Anjney",
-        "last": "Midha",
-        "title": "CEO",
-        "email": "anjney@sixtenfortyone.com",
-        "phone": "526-942-3675",
+    "company": "SwoopSearch",
+        "first": "Morgan",
+        "last": "Dollard",
+        "title": "CPO",
+        "email": "morgan@swoopsearch.com",
+        "phone": "428-976-4253",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 602,
+    "timeCommitment": 1091,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
-        "phone": "424-286-6787",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
+        "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -1043,21 +1043,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Hammad",
-        "last": "Bashir",
-        "title": "Product",
-        "email": "hammad@sixtenfortyone.com",
-        "phone": "752-245-0015",
+    "company": "Ubiquity6",
+        "first": "Natalie",
+        "last": "Gavello",
+        "title": "Talent",
+        "email": "natalie@ubiquity6.com",
+        "phone": "770-480-8802",
         "demandExpertise": "Recruiting"
 }
 },
 {
     "timeCommitment": 45,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
         "phone": "971-616-9127",
         "expertise": "Sales"
 },
@@ -1070,22 +1070,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Manasi",
-        "last": "Vartak",
+    "company": "ColonyLabs",
+        "first": "Jennifer",
+        "last": "Smith",
         "title": "CEO",
-        "email": "manasi@super.ai",
-        "phone": "279-302-8895",
+        "email": "jennifer@colonylabs.com",
+        "phone": "224-308-3979",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 416,
+    "timeCommitment": 1312,
     "internal": {
-    "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
-        "phone": "970-344-7157",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
+        "phone": "354-879-0315",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -1097,21 +1097,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Ankit",
-        "last": "Kumar",
-        "title": "CTO",
-        "email": "ankit@sixtenfortyone.com",
-        "phone": "291-896-4027",
+    "company": "NewFront",
+        "first": "Heather",
+        "last": "Dunn",
+        "title": "People",
+        "email": "heather@newfront.com",
+        "phone": "846-924-1628",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 15,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -1124,22 +1124,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
+    "company": "LTSE",
         "first": "Tihomir",
         "last": "Bajic",
         "title": "CEO",
-        "email": "tihomir@pos-i-bility.com",
+        "email": "tihomir@ltse.com",
         "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 70,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
-        "phone": "720-506-5506",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1151,21 +1151,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Aaron",
-        "last": "Forth",
-        "title": "CPO",
-        "email": "aaron@frontreader.com",
-        "phone": "413-510-9935",
+    "company": "ColonyLabs",
+        "first": "Jennifer",
+        "last": "Smith",
+        "title": "CEO",
+        "email": "jennifer@colonylabs.com",
+        "phone": "224-308-3979",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 90,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -1178,22 +1178,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Boris",
-        "last": "Fowler",
-        "title": "Recruiting",
-        "email": "boris@oruni.io",
-        "phone": "437-723-1046",
+    "company": "Ubiquity6",
+        "first": "Hammad",
+        "last": "Bashir",
+        "title": "Product",
+        "email": "hammad@ubiquity6.com",
+        "phone": "752-245-0015",
         "demandExpertise": "Recruiting"
 }
 },
 {
     "timeCommitment": 90,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
-        "phone": "971-616-9127",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1205,21 +1205,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Jean",
-        "last": "Rogers",
-        "title": "CRO",
-        "email": "jean@pos-i-bility.com",
-        "phone": "256-345-9873",
+    "company": "NewFront",
+        "first": "Zachary",
+        "last": "Kruth",
+        "title": "Finance",
+        "email": "zachary@newfront.com",
+        "phone": "519-759-4907",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 676,
+    "timeCommitment": 626,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -1232,22 +1232,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Gordon",
-        "last": "Wintrob",
-        "title": "CTO",
-        "email": "gordan@frontreader.com",
-        "phone": "238-518-2523",
+    "company": "Verta.ai",
+        "first": "Ravi",
+        "last": "Shetye",
+        "title": "Engineering",
+        "email": "ravi@verta.ai",
+        "phone": "332-808-7923",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 20,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1259,22 +1259,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Marcus",
-        "last": "Gosling",
-        "title": "Product",
-        "email": "marcus@pos-i-bility.com",
-        "phone": "626-582-8603",
+    "company": "NewFront",
+        "first": "Zachary",
+        "last": "Kruth",
+        "title": "Finance",
+        "email": "zachary@newfront.com",
+        "phone": "519-759-4907",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 70,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
-        "phone": "720-506-5506",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1286,22 +1286,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Jackie",
-        "last": "Lamping",
-        "title": "CMO",
-        "email": "jackie@frontreader.com",
-        "phone": "732-861-6046",
+    "company": "LTSE",
+        "first": "Jean",
+        "last": "Rogers",
+        "title": "CRO",
+        "email": "jean@ltse.com",
+        "phone": "256-345-9873",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 210,
+    "timeCommitment": 733,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
-        "phone": "975-948-6140",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
+        "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -1313,21 +1313,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Sassa",
-        "last": "Kangas",
-        "title": "Operations",
-        "email": "sassa@devopsearch.com",
-        "phone": "779-386-9839",
+    "company": "Nuro.ai",
+        "first": "Boris",
+        "last": "Fowler",
+        "title": "Recruiting",
+        "email": "boris@nuro.ai",
+        "phone": "437-723-1046",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 10,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
         "phone": "354-879-0315",
         "expertise": "Engineering"
 },
@@ -1340,21 +1340,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Tihomir",
-        "last": "Bajic",
-        "title": "CEO",
-        "email": "tihomir@pos-i-bility.com",
-        "phone": "621-555-5748",
+    "company": "SwoopSearch",
+        "first": "Michael",
+        "last": "Bottum",
+        "title": "Engineering",
+        "email": "michael@swoopsearch.com",
+        "phone": "440-324-3918",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 30,
+    "timeCommitment": 45,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -1367,22 +1367,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
+    "company": "SwoopSearch",
         "first": "Michael",
-        "last": "Brown",
-        "title": "COO",
-        "email": "michael@frontreader.com",
-        "phone": "817-315-9866",
+        "last": "Bottum",
+        "title": "Engineering",
+        "email": "michael@swoopsearch.com",
+        "phone": "440-324-3918",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 377,
+    "timeCommitment": 620,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -1394,21 +1394,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Michael",
-        "last": "Brown",
-        "title": "COO",
-        "email": "michael@frontreader.com",
-        "phone": "817-315-9866",
+    "company": "LTSE",
+        "first": "Tihomir",
+        "last": "Bajic",
+        "title": "CEO",
+        "email": "tihomir@ltse.com",
+        "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 883,
+    "timeCommitment": 758,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -1421,21 +1421,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Pallavi",
-        "last": "Devaraj",
-        "title": "Onboarding",
-        "email": "pallavi@frontreader.com",
-        "phone": "416-429-0752",
+    "company": "SwoopSearch",
+        "first": "Michael",
+        "last": "Bottum",
+        "title": "Engineering",
+        "email": "michael@swoopsearch.com",
+        "phone": "440-324-3918",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 1187,
+    "timeCommitment": 759,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -1448,22 +1448,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
+    "company": "Ubiquity6",
         "first": "Hammad",
         "last": "Bashir",
         "title": "Product",
-        "email": "hammad@sixtenfortyone.com",
+        "email": "hammad@ubiquity6.com",
         "phone": "752-245-0015",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 150,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
-        "phone": "792-328-3995",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1475,21 +1475,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Morgan",
-        "last": "Dollard",
-        "title": "CPO",
-        "email": "morgan@devopsearch.com",
-        "phone": "428-976-4253",
+    "company": "NewFront",
+        "first": "Jackie",
+        "last": "Lamping",
+        "title": "CMO",
+        "email": "jackie@newfront.com",
+        "phone": "732-861-6046",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 621,
+    "timeCommitment": 483,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
         "phone": "971-616-9127",
         "expertise": "Sales"
 },
@@ -1502,22 +1502,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Ben",
-        "last": "Rathi",
-        "title": "Product",
-        "email": "ben@oruni.io",
-        "phone": "487-880-2408",
+    "company": "Nuro.ai",
+        "first": "Dave",
+        "last": "Ferguson",
+        "title": "Co-Founder",
+        "email": "dave@nuro.ai",
+        "phone": "369-576-4722",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 10,
+    "timeCommitment": 45,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
-        "phone": "792-328-3995",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1529,21 +1529,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Ann-Marie",
-        "last": "Harbour",
-        "title": "Studio",
-        "email": "ann-marie@sixtenfortyone.com",
-        "phone": "273-771-6006",
+    "company": "Nuro.ai",
+        "first": "Andrew",
+        "last": "Borella",
+        "title": "Partnerships",
+        "email": "andrew@nuro.ai",
+        "phone": "448-226-3323",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 15,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
         "phone": "354-879-0315",
         "expertise": "Engineering"
 },
@@ -1556,22 +1556,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Pallavi",
-        "last": "Devaraj",
-        "title": "Onboarding",
-        "email": "pallavi@frontreader.com",
-        "phone": "416-429-0752",
+    "company": "NewFront",
+        "first": "Heather",
+        "last": "Dunn",
+        "title": "People",
+        "email": "heather@newfront.com",
+        "phone": "846-924-1628",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 247,
+    "timeCommitment": 1252,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1583,21 +1583,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Dave",
-        "last": "Ferguson",
-        "title": "Co-Founder",
-        "email": "dave@oruni.io",
-        "phone": "369-576-4722",
+    "company": "LTSE",
+        "first": "Marcus",
+        "last": "Gosling",
+        "title": "Product",
+        "email": "marcus@ltse.com",
+        "phone": "626-582-8603",
         "demandExpertise": "Sales"
 }
 },
 {
     "timeCommitment": 10,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
         "phone": "971-616-9127",
         "expertise": "Sales"
 },
@@ -1610,21 +1610,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Anjney",
-        "last": "Midha",
-        "title": "CEO",
-        "email": "anjney@sixtenfortyone.com",
-        "phone": "526-942-3675",
+    "company": "Nuro.ai",
+        "first": "Andrew",
+        "last": "Borella",
+        "title": "Partnerships",
+        "email": "andrew@nuro.ai",
+        "phone": "448-226-3323",
         "demandExpertise": "Sales"
 }
 },
 {
     "timeCommitment": 30,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
         "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
@@ -1637,22 +1637,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Conrado",
-        "last": "Miranda",
-        "title": "CTO",
-        "email": "conrado@super.ai",
-        "phone": "550-937-4672",
+    "company": "ColonyLabs",
+        "first": "Jason",
+        "last": "Libbey",
+        "title": "Co-Founder",
+        "email": "jason@colonylabs.com",
+        "phone": "266-359-0938",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 10,
+    "timeCommitment": 60,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
-        "phone": "792-328-3995",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1664,21 +1664,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Dave",
-        "last": "Ferguson",
-        "title": "Co-Founder",
-        "email": "dave@oruni.io",
-        "phone": "369-576-4722",
+    "company": "ColonyLabs",
+        "first": "Jennifer",
+        "last": "Smith",
+        "title": "CEO",
+        "email": "jennifer@colonylabs.com",
+        "phone": "224-308-3979",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 241,
+    "timeCommitment": 981,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
         "phone": "720-506-5506",
         "expertise": "Sales"
 },
@@ -1691,22 +1691,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Morgan",
-        "last": "Dollard",
-        "title": "CPO",
-        "email": "morgan@devopsearch.com",
-        "phone": "428-976-4253",
+    "company": "NewFront",
+        "first": "Zachary",
+        "last": "Kruth",
+        "title": "Finance",
+        "email": "zachary@newfront.com",
+        "phone": "519-759-4907",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 120,
+    "timeCommitment": 150,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
-        "phone": "971-616-9127",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1718,21 +1718,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Quinn",
-        "last": "Bottum",
-        "title": "Co-Founder",
-        "email": "quinn@devopsearch.com",
-        "phone": "279-554-6731",
+    "company": "ColonyLabs",
+        "first": "Jennifer",
+        "last": "Smith",
+        "title": "CEO",
+        "email": "jennifer@colonylabs.com",
+        "phone": "224-308-3979",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
         "phone": "354-879-0315",
         "expertise": "Engineering"
 },
@@ -1745,22 +1745,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
+    "company": "LTSE",
         "first": "Tihomir",
         "last": "Bajic",
         "title": "CEO",
-        "email": "tihomir@pos-i-bility.com",
+        "email": "tihomir@ltse.com",
         "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 990,
+    "timeCommitment": 133,
     "internal": {
-    "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
-        "phone": "970-344-7157",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
+        "phone": "354-879-0315",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -1772,22 +1772,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Ankit",
-        "last": "Kumar",
+    "company": "NewFront",
+        "first": "Gordon",
+        "last": "Wintrob",
         "title": "CTO",
-        "email": "ankit@sixtenfortyone.com",
-        "phone": "291-896-4027",
+        "email": "gordan@newfront.com",
+        "phone": "238-518-2523",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 10,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
+        "phone": "792-328-3995",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1799,22 +1799,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Jiajun",
-        "last": "Zhu",
-        "title": "Co-Founder",
-        "email": "jianjun@oruni.io",
-        "phone": "465-419-5588",
+    "company": "LTSE",
+        "first": "Jean",
+        "last": "Rogers",
+        "title": "CRO",
+        "email": "jean@ltse.com",
+        "phone": "256-345-9873",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 150,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
-        "phone": "792-328-3995",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
+        "phone": "971-616-9127",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1826,21 +1826,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SuccessLabs",
-        "first": "Jennifer",
-        "last": "Smith",
-        "title": "CEO",
-        "email": "jennifer@successlabs.com",
-        "phone": "224-308-3979",
+    "company": "Nuro.ai",
+        "first": "Dave",
+        "last": "Ferguson",
+        "title": "Co-Founder",
+        "email": "dave@nuro.ai",
+        "phone": "369-576-4722",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 150,
+    "timeCommitment": 30,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -1853,22 +1853,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Pallavi",
-        "last": "Devaraj",
-        "title": "Onboarding",
-        "email": "pallavi@frontreader.com",
-        "phone": "416-429-0752",
+    "company": "NewFront",
+        "first": "Heather",
+        "last": "Dunn",
+        "title": "People",
+        "email": "heather@newfront.com",
+        "phone": "846-924-1628",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 646,
+    "timeCommitment": 1140,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
-        "phone": "792-328-3995",
+    "first": "Dan",
+        "last": "Portillio",
+        "email": "dan@sweatequity.vc",
+        "phone": "367-987-1138",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1880,22 +1880,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Dave",
-        "last": "Ferguson",
-        "title": "Co-Founder",
-        "email": "dave@oruni.io",
-        "phone": "369-576-4722",
+    "company": "Ubiquity6",
+        "first": "Ann-Marie",
+        "last": "Harbour",
+        "title": "Studio",
+        "email": "ann-marie@ubiquity6.com",
+        "phone": "273-771-6006",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 20,
+    "timeCommitment": 60,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
-        "phone": "720-506-5506",
+    "first": "Dan",
+        "last": "Portillio",
+        "email": "dan@sweatequity.vc",
+        "phone": "367-987-1138",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1907,22 +1907,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SuccessLabs",
-        "first": "Jennifer",
-        "last": "Smith",
+    "company": "Ubiquity6",
+        "first": "Anjney",
+        "last": "Midha",
         "title": "CEO",
-        "email": "jennifer@successlabs.com",
-        "phone": "224-308-3979",
+        "email": "anjney@ubiquity6.com",
+        "phone": "526-942-3675",
         "demandExpertise": "Sales"
 }
 },
 {
     "timeCommitment": 60,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -1934,22 +1934,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Ravi",
-        "last": "Shetye",
-        "title": "Engineering",
-        "email": "ravi@super.ai",
-        "phone": "332-808-7923",
+    "company": "LTSE",
+        "first": "Tihomir",
+        "last": "Bajic",
+        "title": "CEO",
+        "email": "tihomir@ltse.com",
+        "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 150,
+    "timeCommitment": 120,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
+        "phone": "971-616-9127",
         "expertise": "Sales"
 },
     "introduction": {
@@ -1961,22 +1961,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Urooj",
-        "last": "Kazmi",
-        "title": "Brokerage",
-        "email": "urooj@frontreader.com",
-        "phone": "307-825-4363",
+    "company": "Nuro.ai",
+        "first": "Dave",
+        "last": "Ferguson",
+        "title": "Co-Founder",
+        "email": "dave@nuro.ai",
+        "phone": "369-576-4722",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 90,
+    "timeCommitment": 60,
     "internal": {
-    "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
-        "phone": "970-344-7157",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
+        "phone": "354-879-0315",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -1988,21 +1988,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Tihomir",
-        "last": "Bajic",
-        "title": "CEO",
-        "email": "tihomir@pos-i-bility.com",
-        "phone": "621-555-5748",
+    "company": "NewFront",
+        "first": "Heather",
+        "last": "Dunn",
+        "title": "People",
+        "email": "heather@newfront.com",
+        "phone": "846-924-1628",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 20,
+    "timeCommitment": 15,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -2015,22 +2015,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Oruni.io",
-        "first": "Boris",
-        "last": "Fowler",
-        "title": "Recruiting",
-        "email": "boris@oruni.io",
-        "phone": "437-723-1046",
+    "company": "ColonyLabs",
+        "first": "Aaron",
+        "last": "Podolny",
+        "title": "CTO",
+        "email": "aaron@colonylabs.com",
+        "phone": "489-390-6138",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 20,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -2042,22 +2042,22 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Tihomir",
-        "last": "Bajic",
-        "title": "CEO",
-        "email": "tihomir@pos-i-bility.com",
-        "phone": "621-555-5748",
+    "company": "Ubiquity6",
+        "first": "Ankit",
+        "last": "Kumar",
+        "title": "CTO",
+        "email": "ankit@ubiquity6.com",
+        "phone": "291-896-4027",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 20,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
-        "phone": "971-616-9127",
+    "first": "Dan",
+        "last": "Portillio",
+        "email": "dan@sweatequity.vc",
+        "phone": "367-987-1138",
         "expertise": "Sales"
 },
     "introduction": {
@@ -2069,22 +2069,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Super.ai",
+    "company": "Verta.ai",
         "first": "Manasi",
         "last": "Vartak",
         "title": "CEO",
-        "email": "manasi@super.ai",
+        "email": "manasi@verta.ai",
         "phone": "279-302-8895",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 90,
     "internal": {
-    "first": "Xing",
-        "last": "Chen",
-        "email": "xing@venture.com",
-        "phone": "424-286-6787",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
+        "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -2096,22 +2096,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SuccessLabs",
-        "first": "Aaron",
-        "last": "Podolny",
-        "title": "CTO",
-        "email": "aaron@successlabs.com",
-        "phone": "489-390-6138",
+    "company": "Nuro.ai",
+        "first": "Boris",
+        "last": "Fowler",
+        "title": "Recruiting",
+        "email": "boris@nuro.ai",
+        "phone": "437-723-1046",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 10,
+    "timeCommitment": 15,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -2123,21 +2123,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Gordon",
-        "last": "Wintrob",
-        "title": "CTO",
-        "email": "gordan@frontreader.com",
-        "phone": "238-518-2523",
+    "company": "LTSE",
+        "first": "Tihomir",
+        "last": "Bajic",
+        "title": "CEO",
+        "email": "tihomir@ltse.com",
+        "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 70,
+    "timeCommitment": 45,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -2150,22 +2150,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Holly",
-        "last": "Grant",
-        "title": "COO",
-        "email": "holly@pos-i-bility.com",
-        "phone": "705-307-4261",
+    "company": "Ubiquity6",
+        "first": "Hammad",
+        "last": "Bashir",
+        "title": "Product",
+        "email": "hammad@ubiquity6.com",
+        "phone": "752-245-0015",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 870,
+    "timeCommitment": 848,
     "internal": {
-    "first": "Ali",
-        "last": "Wissam",
-        "email": "ali@venture.vc",
-        "phone": "971-616-9127",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -2177,22 +2177,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Daniel",
-        "last": "Amar",
-        "title": "Trading",
-        "email": "daniel@pos-i-bility.com",
-        "phone": "970-573-2528",
+    "company": "NewFront",
+        "first": "Jackie",
+        "last": "Lamping",
+        "title": "CMO",
+        "email": "jackie@newfront.com",
+        "phone": "732-861-6046",
         "demandExpertise": "Sales"
 }
 },
 {
     "timeCommitment": 30,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Alexis",
+        "last": "Rask",
+        "email": "alexis@sweatequity.vc",
+        "phone": "720-506-5506",
         "expertise": "Sales"
 },
     "introduction": {
@@ -2204,21 +2204,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Daniel",
-        "last": "Amar",
-        "title": "Trading",
-        "email": "daniel@pos-i-bility.com",
-        "phone": "970-573-2528",
+    "company": "SwoopSearch",
+        "first": "Morgan",
+        "last": "Dollard",
+        "title": "CPO",
+        "email": "morgan@swoopsearch.com",
+        "phone": "428-976-4253",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 20,
+    "timeCommitment": 10,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -2231,22 +2231,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Tihomir",
-        "last": "Bajic",
-        "title": "CEO",
-        "email": "tihomir@pos-i-bility.com",
-        "phone": "621-555-5748",
+    "company": "Ubiquity6",
+        "first": "Ankit",
+        "last": "Kumar",
+        "title": "CTO",
+        "email": "ankit@ubiquity6.com",
+        "phone": "291-896-4027",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 45,
+    "timeCommitment": 10,
     "internal": {
-    "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
-        "phone": "970-344-7157",
+    "first": "Andrei",
+        "last": "Savu",
+        "email": "andrei@sweatequity.vc",
+        "phone": "354-879-0315",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -2258,22 +2258,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Super.ai",
-        "first": "Ravi",
-        "last": "Shetye",
-        "title": "Engineering",
-        "email": "ravi@super.ai",
-        "phone": "332-808-7923",
+    "company": "LTSE",
+        "first": "Tihomir",
+        "last": "Bajic",
+        "title": "CEO",
+        "email": "tihomir@ltse.com",
+        "phone": "621-555-5748",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 150,
+    "timeCommitment": 45,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -2285,22 +2285,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Gordon",
-        "last": "Wintrob",
-        "title": "CTO",
-        "email": "gordan@frontreader.com",
-        "phone": "238-518-2523",
+    "company": "Verta.ai",
+        "first": "Ravi",
+        "last": "Shetye",
+        "title": "Engineering",
+        "email": "ravi@verta.ai",
+        "phone": "332-808-7923",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 15,
+    "timeCommitment": 20,
     "internal": {
-    "first": "Jersey",
-        "last": "Colio",
-        "email": "jersey@venture.vc",
-        "phone": "720-506-5506",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
+        "phone": "971-616-9127",
         "expertise": "Sales"
 },
     "introduction": {
@@ -2312,22 +2312,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Quinn",
-        "last": "Bottum",
+    "company": "Nuro.ai",
+        "first": "Dave",
+        "last": "Ferguson",
         "title": "Co-Founder",
-        "email": "quinn@devopsearch.com",
-        "phone": "279-554-6731",
+        "email": "dave@nuro.ai",
+        "phone": "369-576-4722",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 1250,
+    "timeCommitment": 194,
     "internal": {
-    "first": "Stan",
-        "last": "Peothan",
-        "email": "stan@venture.vc",
-        "phone": "367-987-1138",
+    "first": "Andeas",
+        "last": "Wiese",
+        "email": "andreas@sweatequity.vc",
+        "phone": "971-616-9127",
         "expertise": "Sales"
 },
     "introduction": {
@@ -2339,22 +2339,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Jean",
-        "last": "Rogers",
-        "title": "CRO",
-        "email": "jean@pos-i-bility.com",
-        "phone": "256-345-9873",
+    "company": "Ubiquity6",
+        "first": "Ann-Marie",
+        "last": "Harbour",
+        "title": "Studio",
+        "email": "ann-marie@ubiquity6.com",
+        "phone": "273-771-6006",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 15,
+    "timeCommitment": 60,
     "internal": {
-    "first": "Andy",
-        "last": "Suleiman",
-        "email": "andy@venture.vc",
-        "phone": "354-879-0315",
+    "first": "Michael",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
+        "phone": "970-344-7157",
         "expertise": "Engineering"
 },
     "introduction": {
@@ -2366,21 +2366,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
+    "company": "NewFront",
         "first": "Michael",
         "last": "Brown",
         "title": "COO",
-        "email": "michael@frontreader.com",
+        "email": "michael@newfront.com",
         "phone": "817-315-9866",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 30,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -2393,21 +2393,21 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Michael",
-        "last": "Bottum",
-        "title": "Engineering",
-        "email": "michael@devopsearch.com",
-        "phone": "440-324-3918",
+    "company": "Ubiquity6",
+        "first": "Ankit",
+        "last": "Kumar",
+        "title": "CTO",
+        "email": "ankit@ubiquity6.com",
+        "phone": "291-896-4027",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 20,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -2420,21 +2420,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Sassa",
-        "last": "Kangas",
-        "title": "Operations",
-        "email": "sassa@devopsearch.com",
-        "phone": "779-386-9839",
+    "company": "ColonyLabs",
+        "first": "Aaron",
+        "last": "Podolny",
+        "title": "CTO",
+        "email": "aaron@colonylabs.com",
+        "phone": "489-390-6138",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 10,
     "internal": {
     "first": "Michael",
-        "last": "Mendez",
-        "email": "michael@venture.com",
+        "last": "Bottum",
+        "email": "michael@sweatequity.com",
         "phone": "970-344-7157",
         "expertise": "Engineering"
 },
@@ -2447,21 +2447,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Pallavi",
-        "last": "Devaraj",
-        "title": "Onboarding",
-        "email": "pallavi@frontreader.com",
-        "phone": "416-429-0752",
+    "company": "Ubiquity6",
+        "first": "Ankit",
+        "last": "Kumar",
+        "title": "CTO",
+        "email": "ankit@ubiquity6.com",
+        "phone": "291-896-4027",
         "demandExpertise": "Engineering"
 }
 },
 {
-    "timeCommitment": 296,
+    "timeCommitment": 85,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
         "phone": "792-328-3995",
         "expertise": "Sales"
 },
@@ -2474,21 +2474,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Morgan",
-        "last": "Dollard",
-        "title": "CPO",
-        "email": "morgan@devopsearch.com",
-        "phone": "428-976-4253",
+    "company": "Nuro.ai",
+        "first": "Ben",
+        "last": "Rathi",
+        "title": "Product",
+        "email": "ben@nuro.ai",
+        "phone": "487-880-2408",
         "demandExpertise": "Sales"
 }
 },
 {
-    "timeCommitment": 335,
+    "timeCommitment": 685,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -2501,21 +2501,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "DevOpSearch",
-        "first": "Sassa",
-        "last": "Kangas",
-        "title": "Operations",
-        "email": "sassa@devopsearch.com",
-        "phone": "779-386-9839",
+    "company": "Verta.ai",
+        "first": "Conrado",
+        "last": "Miranda",
+        "title": "CTO",
+        "email": "conrado@verta.ai",
+        "phone": "550-937-4672",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 237,
+    "timeCommitment": 471,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
+    "first": "George",
+        "last": "Babu",
+        "email": "george@sweatequity.vc",
         "phone": "975-948-6140",
         "expertise": "Recruiting"
 },
@@ -2528,22 +2528,22 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "Pos-i-bility",
-        "first": "Holly",
-        "last": "Grant",
-        "title": "COO",
-        "email": "holly@pos-i-bility.com",
-        "phone": "705-307-4261",
+    "company": "Ubiquity6",
+        "first": "Natalie",
+        "last": "Gavello",
+        "title": "Talent",
+        "email": "natalie@ubiquity6.com",
+        "phone": "770-480-8802",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 60,
+    "timeCommitment": 15,
     "internal": {
-    "first": "Wesley",
-        "last": "Grande",
-        "email": "wesley@venture.vc",
-        "phone": "975-948-6140",
+    "first": "Megan",
+        "last": "Zengerle",
+        "email": "megan@swoopsearch.com",
+        "phone": "424-286-6787",
         "expertise": "Recruiting"
 },
     "introduction": {
@@ -2555,21 +2555,21 @@ export const proxyData = [
         "result": "SUCCESS"
 },
     "portfolio": {
-    "company": "SixTenFortyOne",
-        "first": "Natalie",
-        "last": "Gavello",
-        "title": "Talent",
-        "email": "natalie@sixtenfortyone.com",
-        "phone": "770-480-8802",
+    "company": "Verta.ai",
+        "first": "Conrado",
+        "last": "Miranda",
+        "title": "CTO",
+        "email": "conrado@verta.ai",
+        "phone": "550-937-4672",
         "demandExpertise": "Recruiting"
 }
 },
 {
-    "timeCommitment": 10,
+    "timeCommitment": 30,
     "internal": {
-    "first": "Jessica",
-        "last": "Anderson",
-        "email": "jessica@venture.vc",
+    "first": "Marie",
+        "last": "Vail",
+        "email": "marie@sweatequity.vc",
         "phone": "792-328-3995",
         "expertise": "Sales"
 },
@@ -2582,12 +2582,12 @@ export const proxyData = [
         "result": "COLD"
 },
     "portfolio": {
-    "company": "FrontReader",
-        "first": "Aaron",
-        "last": "Forth",
-        "title": "CPO",
-        "email": "aaron@frontreader.com",
-        "phone": "413-510-9935",
+    "company": "Nuro.ai",
+        "first": "Ben",
+        "last": "Rathi",
+        "title": "Product",
+        "email": "ben@nuro.ai",
+        "phone": "487-880-2408",
         "demandExpertise": "Sales"
 }
 }

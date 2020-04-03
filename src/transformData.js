@@ -17,7 +17,7 @@ export function SEV_TimeCommitment_Per_Company(uniqueCompanies, touchPoint){
     for (let i = 0; i < proxyData.length; i++){
         if(proxyData[i].introduction.touchPoint === touchPoint) {
             let index = uniqueCompanies.indexOf(proxyData[i].portfolio.company);
-            countTimeCommitments[index] = countTimeCommitments[index] + proxyData[i].timeCommitment;
+            countTimeCommitments[index] = countTimeCommitments[index] + proxyData[i].timeCommitment/60;
         }
     }
     return countTimeCommitments;
@@ -65,7 +65,7 @@ export function SEV_ExtractTimeCommitmentsByExpertiseAndTouchPoint(touchPoint, u
         if (proxyData[i].introduction.touchPoint === touchPoint) {
             if(proxyData[i].internal.expertise === expertiseID){
                 let indexDiscoveryOnCompany = uniqueCompanies.indexOf(proxyData[i].portfolio.company);
-                timeCommitmentsCompanyCounter[indexDiscoveryOnCompany] += proxyData[i].timeCommitment;
+                timeCommitmentsCompanyCounter[indexDiscoveryOnCompany] += proxyData[i].timeCommitment/60;
             }
         }
     }
@@ -120,7 +120,7 @@ export function SEV_ExtractTimeCommitmentByPortfolio(SEV_Internal, SEV_Companies
     for (let i = 0; i < proxyData.length; i++){
         if(proxyData[i].internal.first + " " + proxyData[i].internal.last === SEV_Internal){
             let indexDiscoveryOnCompanies = SEV_Companies.indexOf(proxyData[i].portfolio.company);
-            internalCompanyTimeAggregate[indexDiscoveryOnCompanies] += proxyData[i].timeCommitment;
+            internalCompanyTimeAggregate[indexDiscoveryOnCompanies] += proxyData[i].timeCommitment/60;
         }
     }
     return internalCompanyTimeAggregate;
