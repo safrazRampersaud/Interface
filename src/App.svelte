@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Sweat Equity Ventures - EMS</title>
+    <title>Ventures - EMS</title>
 </svelte:head>
 
 
@@ -30,7 +30,7 @@
 
 <div class="flexy">
         <TopAppBar variant="static" color='secondary' align="center">
-            <h3>SWEAT EQUITY VENTURES - ENGAGEMENT MANAGEMENT SYSTEM</h3>
+            <h3>VENTURES - ENGAGEMENT MANAGEMENT SYSTEM</h3>
         </TopAppBar>
     </div>
 <br>
@@ -98,9 +98,6 @@
 
             <!--Totals-->
             <Button on:click={() => afterUpdate(totalResponseTimePerCompany("Call"))} color="secondary" variant="raised" dense> Total Time </Button>
-
-<!--            &lt;!&ndash;Distributions&ndash;&gt;-->
-<!--            <Button on:click={() => afterUpdate(timeCommitmentDistributionPerCompany("Call"))} color="secondary" variant="raised" dense>  Distribution </Button>-->
 
         </div>
     </div>
