@@ -1,7 +1,10 @@
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
-# Prototype for visually presenting venture capital engagement metrics with portfolio companies
+# Venture capital engagement metrics
+Worked with a venture capital firm to kick off the acquisition of their touchpoint data and visualize the time spent in various interactions with their portfolio companies.  Mock data is used for public Github hosting.  Implemented in Svelte.
+
+![Alt text](public/venture_metrics.png)
 
 # Getting started with Svelte
 
