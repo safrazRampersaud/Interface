@@ -1,8 +1,9 @@
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
+# Prototype for visually presenting venture capital engagement metrics with portfolio companies
 
-# svelte app
+# Getting started with Svelte
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
